@@ -1,6 +1,6 @@
 # cutils : Re-Implementation of core-utils in C
 
-This is the re-implementation of core-utils in C and is designed to be portable across different platforms and compilers and is portable
+This is the re-implementation of core-utils in C and is designed to be portable across different platforms and compilers
 ## Functions
 
 ### echo_command

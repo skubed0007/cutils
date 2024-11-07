@@ -1,4 +1,4 @@
-# cutils : Implementation of core-utils in C
+# cutils : Re-Implementation of core-utils in C
 
 This is a collection of utility functions that I use in my projects. The functions are implemented in C and are designed to be portable across different platforms and compilers.
 

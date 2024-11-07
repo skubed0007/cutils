@@ -9,9 +9,7 @@ Prints the command line arguments to standard output. If an argument starts with
 
 #### Parameters
 
-- `argc`: The total number of arguments passed to the command, including the program name.
-- `argv`: An array of strings representing the arguments passed to the command.
-- `start_index`: The index from which to start processing the arguments. This allows skipping the command name and processing only the user-provided arguments.
+- text/command/env_var: The (text or command output or environment variable) to be printed to standard output 
 
 #### Example Usage
 ```bash

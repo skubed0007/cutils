@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * echo_command - Prints the command line arguments to standard output.
- *                If an argument starts with '$', it is treated as an environment
- *                variable, and its value is printed. Otherwise, the argument itself
- *                is printed.
+ * print_command_arguments - Prints the command line arguments to standard output.
+ *                            If an argument starts with '$', it is treated as an environment
+ *                            variable, and its value is printed. Otherwise, the argument itself
+ *                            is printed.
  *
  * @argc: The total number of arguments passed to the command, including the program name.
  * @argv: An array of strings representing the arguments passed to the command.
@@ -23,9 +23,9 @@
  *
  * Example Usage:
  *   // Suppose the environment variable "HOME" exists:
- *   echo_command(3, argv, 1);  // Output: /home/user some_text
+ *   print_command_arguments(3, argv, 1);  // Output: /home/user some_text
  */
-void echo_command(int argc, const char *argv[], int start_index) {
+void print_command_arguments(int argc, const char *argv[], int start_index) {
     // Iterate through the arguments starting from start_index
     for (int i = start_index; i < argc; i++) {
         // Check if the argument starts with '$', indicating an environment variable

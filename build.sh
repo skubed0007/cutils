@@ -1,0 +1,2 @@
+clang main.c echo.c ls.c cat.c copy.c move.c mkdir.c touch.c -I. -o cutils --static -O3 -march=native -flto -fvisibility=hidden -fno-rtti -fno-exceptions -std=c11 -Wextra -Werror
+x86_64-w64-mingw32-gcc main.c echo.c ls.c cat.c copy.c move.c mkdir.c touch.c -I. -o cutils.exe -static -O3 -march=native -flto -fvisibility=hidden  -fno-exceptions -std=c11 -Wextra -Werror
